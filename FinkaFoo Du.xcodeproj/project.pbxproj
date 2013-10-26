@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631930EB181C7C0F00C8688C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631930EA181C7C0F00C8688C /* Foundation.framework */; };
+		631930ED181C7C0F00C8688C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631930EC181C7C0F00C8688C /* CoreGraphics.framework */; };
+		631930EF181C7C0F00C8688C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631930EE181C7C0F00C8688C /* UIKit.framework */; };
+		631930F5181C7C0F00C8688C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 631930F3181C7C0F00C8688C /* InfoPlist.strings */; };
+		631930F7181C7C0F00C8688C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 631930F6181C7C0F00C8688C /* main.m */; };
+		631930FB181C7C0F00C8688C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 631930FA181C7C0F00C8688C /* AppDelegate.m */; };
+		631930FE181C7C0F00C8688C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631930FC181C7C0F00C8688C /* Main_iPhone.storyboard */; };
+		63193101181C7C0F00C8688C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631930FF181C7C0F00C8688C /* Main_iPad.storyboard */; };
+		63193104181C7C0F00C8688C /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63193103181C7C0F00C8688C /* MasterViewController.m */; };
+		63193107181C7C0F00C8688C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63193106181C7C0F00C8688C /* DetailViewController.m */; };
+		63193109181C7C0F00C8688C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63193108181C7C0F00C8688C /* Images.xcassets */; };
+		63193110181C7C0F00C8688C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6319310F181C7C0F00C8688C /* XCTest.framework */; };
+		63193111181C7C0F00C8688C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631930EA181C7C0F00C8688C /* Foundation.framework */; };
+		63193112181C7C0F00C8688C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631930EE181C7C0F00C8688C /* UIKit.framework */; };
+		6319311A181C7C0F00C8688C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63193118181C7C0F00C8688C /* InfoPlist.strings */; };
+		6319311C181C7C0F00C8688C /* FinkaFoo_DuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319311B181C7C0F00C8688C /* FinkaFoo_DuTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63193113181C7C0F00C8688C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631930DF181C7C0F00C8688C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631930E6181C7C0F00C8688C;
+			remoteInfo = "FinkaFoo Du";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		631930E7181C7C0F00C8688C /* FinkaFoo Du.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FinkaFoo Du.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631930EA181C7C0F00C8688C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		631930EC181C7C0F00C8688C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		631930EE181C7C0F00C8688C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		631930F2181C7C0F00C8688C /* FinkaFoo Du-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinkaFoo Du-Info.plist"; sourceTree = "<group>"; };
+		631930F4181C7C0F00C8688C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		631930F6181C7C0F00C8688C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		631930F8181C7C0F00C8688C /* FinkaFoo Du-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinkaFoo Du-Prefix.pch"; sourceTree = "<group>"; };
+		631930F9181C7C0F00C8688C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		631930FA181C7C0F00C8688C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		631930FD181C7C0F00C8688C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		63193100181C7C0F00C8688C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		63193102181C7C0F00C8688C /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		63193103181C7C0F00C8688C /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		63193105181C7C0F00C8688C /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		63193106181C7C0F00C8688C /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		63193108181C7C0F00C8688C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6319310E181C7C0F00C8688C /* FinkaFoo DuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FinkaFoo DuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6319310F181C7C0F00C8688C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		63193117181C7C0F00C8688C /* FinkaFoo DuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinkaFoo DuTests-Info.plist"; sourceTree = "<group>"; };
+		63193119181C7C0F00C8688C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6319311B181C7C0F00C8688C /* FinkaFoo_DuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinkaFoo_DuTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		631930E4181C7C0F00C8688C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631930ED181C7C0F00C8688C /* CoreGraphics.framework in Frameworks */,
+				631930EF181C7C0F00C8688C /* UIKit.framework in Frameworks */,
+				631930EB181C7C0F00C8688C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6319310B181C7C0F00C8688C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63193110181C7C0F00C8688C /* XCTest.framework in Frameworks */,
+				63193112181C7C0F00C8688C /* UIKit.framework in Frameworks */,
+				63193111181C7C0F00C8688C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631930DE181C7C0F00C8688C = {
+			isa = PBXGroup;
+			children = (
+				631930F0181C7C0F00C8688C /* FinkaFoo Du */,
+				63193115181C7C0F00C8688C /* FinkaFoo DuTests */,
+				631930E9181C7C0F00C8688C /* Frameworks */,
+				631930E8181C7C0F00C8688C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		631930E8181C7C0F00C8688C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631930E7181C7C0F00C8688C /* FinkaFoo Du.app */,
+				6319310E181C7C0F00C8688C /* FinkaFoo DuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631930E9181C7C0F00C8688C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				631930EA181C7C0F00C8688C /* Foundation.framework */,
+				631930EC181C7C0F00C8688C /* CoreGraphics.framework */,
+				631930EE181C7C0F00C8688C /* UIKit.framework */,
+				6319310F181C7C0F00C8688C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		631930F0181C7C0F00C8688C /* FinkaFoo Du */ = {
+			isa = PBXGroup;
+			children = (
+				631930F9181C7C0F00C8688C /* AppDelegate.h */,
+				631930FA181C7C0F00C8688C /* AppDelegate.m */,
+				631930FC181C7C0F00C8688C /* Main_iPhone.storyboard */,
+				631930FF181C7C0F00C8688C /* Main_iPad.storyboard */,
+				63193102181C7C0F00C8688C /* MasterViewController.h */,
+				63193103181C7C0F00C8688C /* MasterViewController.m */,
+				63193105181C7C0F00C8688C /* DetailViewController.h */,
+				63193106181C7C0F00C8688C /* DetailViewController.m */,
+				63193108181C7C0F00C8688C /* Images.xcassets */,
+				631930F1181C7C0F00C8688C /* Supporting Files */,
+			);
+			path = "FinkaFoo Du";
+			sourceTree = "<group>";
+		};
+		631930F1181C7C0F00C8688C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				631930F2181C7C0F00C8688C /* FinkaFoo Du-Info.plist */,
+				631930F3181C7C0F00C8688C /* InfoPlist.strings */,
+				631930F6181C7C0F00C8688C /* main.m */,
+				631930F8181C7C0F00C8688C /* FinkaFoo Du-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63193115181C7C0F00C8688C /* FinkaFoo DuTests */ = {
+			isa = PBXGroup;
+			children = (
+				6319311B181C7C0F00C8688C /* FinkaFoo_DuTests.m */,
+				63193116181C7C0F00C8688C /* Supporting Files */,
+			);
+			path = "FinkaFoo DuTests";
+			sourceTree = "<group>";
+		};
+		63193116181C7C0F00C8688C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63193117181C7C0F00C8688C /* FinkaFoo DuTests-Info.plist */,
+				63193118181C7C0F00C8688C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		631930E6181C7C0F00C8688C /* FinkaFoo Du */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6319311F181C7C1000C8688C /* Build configuration list for PBXNativeTarget "FinkaFoo Du" */;
+			buildPhases = (
+				631930E3181C7C0F00C8688C /* Sources */,
+				631930E4181C7C0F00C8688C /* Frameworks */,
+				631930E5181C7C0F00C8688C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FinkaFoo Du";
+			productName = "FinkaFoo Du";
+			productReference = 631930E7181C7C0F00C8688C /* FinkaFoo Du.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6319310D181C7C0F00C8688C /* FinkaFoo DuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63193122181C7C1000C8688C /* Build configuration list for PBXNativeTarget "FinkaFoo DuTests" */;
+			buildPhases = (
+				6319310A181C7C0F00C8688C /* Sources */,
+				6319310B181C7C0F00C8688C /* Frameworks */,
+				6319310C181C7C0F00C8688C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63193114181C7C0F00C8688C /* PBXTargetDependency */,
+			);
+			name = "FinkaFoo DuTests";
+			productName = "FinkaFoo DuTests";
+			productReference = 6319310E181C7C0F00C8688C /* FinkaFoo DuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631930DF181C7C0F00C8688C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Dennis Suto";
+				TargetAttributes = {
+					6319310D181C7C0F00C8688C = {
+						TestTargetID = 631930E6181C7C0F00C8688C;
+					};
+				};
+			};
+			buildConfigurationList = 631930E2181C7C0F00C8688C /* Build configuration list for PBXProject "FinkaFoo Du" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 631930DE181C7C0F00C8688C;
+			productRefGroup = 631930E8181C7C0F00C8688C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				631930E6181C7C0F00C8688C /* FinkaFoo Du */,
+				6319310D181C7C0F00C8688C /* FinkaFoo DuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		631930E5181C7C0F00C8688C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63193101181C7C0F00C8688C /* Main_iPad.storyboard in Resources */,
+				63193109181C7C0F00C8688C /* Images.xcassets in Resources */,
+				631930FE181C7C0F00C8688C /* Main_iPhone.storyboard in Resources */,
+				631930F5181C7C0F00C8688C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6319310C181C7C0F00C8688C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6319311A181C7C0F00C8688C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631930E3181C7C0F00C8688C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631930FB181C7C0F00C8688C /* AppDelegate.m in Sources */,
+				63193104181C7C0F00C8688C /* MasterViewController.m in Sources */,
+				631930F7181C7C0F00C8688C /* main.m in Sources */,
+				63193107181C7C0F00C8688C /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6319310A181C7C0F00C8688C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6319311C181C7C0F00C8688C /* FinkaFoo_DuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63193114181C7C0F00C8688C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631930E6181C7C0F00C8688C /* FinkaFoo Du */;
+			targetProxy = 63193113181C7C0F00C8688C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		631930F3181C7C0F00C8688C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631930F4181C7C0F00C8688C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		631930FC181C7C0F00C8688C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631930FD181C7C0F00C8688C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		631930FF181C7C0F00C8688C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63193100181C7C0F00C8688C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		63193118181C7C0F00C8688C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63193119181C7C0F00C8688C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6319311D181C7C1000C8688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6319311E181C7C1000C8688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63193120181C7C1000C8688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinkaFoo Du/FinkaFoo Du-Prefix.pch";
+				INFOPLIST_FILE = "FinkaFoo Du/FinkaFoo Du-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63193121181C7C1000C8688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinkaFoo Du/FinkaFoo Du-Prefix.pch";
+				INFOPLIST_FILE = "FinkaFoo Du/FinkaFoo Du-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63193123181C7C1000C8688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FinkaFoo Du.app/FinkaFoo Du";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinkaFoo Du/FinkaFoo Du-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FinkaFoo DuTests/FinkaFoo DuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		63193124181C7C1000C8688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FinkaFoo Du.app/FinkaFoo Du";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinkaFoo Du/FinkaFoo Du-Prefix.pch";
+				INFOPLIST_FILE = "FinkaFoo DuTests/FinkaFoo DuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		631930E2181C7C0F00C8688C /* Build configuration list for PBXProject "FinkaFoo Du" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6319311D181C7C1000C8688C /* Debug */,
+				6319311E181C7C1000C8688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6319311F181C7C1000C8688C /* Build configuration list for PBXNativeTarget "FinkaFoo Du" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63193120181C7C1000C8688C /* Debug */,
+				63193121181C7C1000C8688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63193122181C7C1000C8688C /* Build configuration list for PBXNativeTarget "FinkaFoo DuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63193123181C7C1000C8688C /* Debug */,
+				63193124181C7C1000C8688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 631930DF181C7C0F00C8688C /* Project object */;
+}
